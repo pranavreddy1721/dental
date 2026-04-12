@@ -1,5 +1,5 @@
 import { Award, Shield, Heart, CheckCircle2 } from 'lucide-react';
-import { useLang } from '../context/LanguageContext';
+import { useLang } from '../App';
 import { StatsBar } from './StatsBar';
 
 export function About() {
