@@ -1,4 +1,5 @@
 import { ThemeProvider } from './context/ThemeContext';
+import { LanguageProvider } from './context/LanguageContext';
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
@@ -16,21 +17,23 @@ import { Footer } from './components/Footer';
 export default function App() {
   return (
     <ThemeProvider>
-      <div className="min-h-screen bg-white dark:bg-gray-950 transition-colors duration-300">
-        <Navigation />
-        <Hero />
-        <About />
-        <Services />
-        <Doctors />
-        <WhyChooseUs />
-        <Reviews />
-        <Gallery />
-        <Certifications />
-        <Appointment />
-        <Contact />
-        <FloatingButtons />
-        <Footer />
-      </div>
+      <LanguageProvider>
+        <div className="min-h-screen bg-white dark:bg-gray-950 transition-colors duration-300">
+          <Navigation />
+          <Hero />
+          <About />
+          <Services />
+          <Doctors />
+          <WhyChooseUs />
+          <Reviews />
+          <Gallery />
+          <Certifications />
+          <Appointment />
+          <Contact />
+          <FloatingButtons />
+          <Footer />
+        </div>
+      </LanguageProvider>
     </ThemeProvider>
   );
 }
