@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Sun, Moon, Stethoscope } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
-import { useLang } from '../context/LanguageContext';
+import { useLang } from '../App';
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
