@@ -1,5 +1,5 @@
 import { useCountUp } from '../hooks/useCountUp';
-import { useLang } from '../context/LanguageContext';
+import { useLang } from '../App';
 import { Users, Sparkles, Star, Clock } from 'lucide-react';
 
 const STATS = [
