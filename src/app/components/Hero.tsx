@@ -1,5 +1,5 @@
 import { Phone, Calendar, ChevronDown, Shield, Clock, Star, MapPin, CheckCircle2, Stethoscope } from 'lucide-react';
-import { useLang } from '../context/LanguageContext';
+import { useLang } from '../App';
 
 export function Hero() {
   const { t } = useLang();
