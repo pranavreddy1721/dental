@@ -126,9 +126,9 @@ export function Reviews() {
           </div>
 
           {[
-            { n: '20+',  l: 'Google Reviews',   icon: '⭐' },
-            { n: '100%', l: 'Five-Star Reviews', icon: '✅' },
-            { n: '10K+', l: 'Happy Patients',    icon: '😊' },
+            { n: '20+',  l: 'Google Reviews',    },
+            { n: '100%', l: 'Five-Star Reviews',  },
+            { n: '10K+', l: 'Happy Patients',     },
           ].map(s => (
             <div key={s.l} className="flex flex-col items-center justify-center bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 rounded-2xl px-8 py-5 shadow-md text-center min-w-[120px]">
               <span className="text-xl mb-1">{s.icon}</span>
