@@ -6,7 +6,7 @@ export function Doctors() {
       name: 'Dr. Rohit Chougule',
       designation: 'Dental Surgeon',
       qualification: 'BDS, MDS (Orthodontics)',
-      image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=800',
+      image: '/mds-certificate.jpg',
       description: 'Orthodontic Specialist focused on advanced teeth alignment, braces, and bite correction using latest techniques.',
       speciality: 'Orthodontics',
       color: '#1E88E5',
